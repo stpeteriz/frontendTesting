@@ -1,4 +1,16 @@
 .Tilt{
     /*background: linear-gradient(20deg, #0f0c29, #302b63, #24243e);*/
-    background: linear-gradient(to left, #f3904f, #3b4371);
+    background: -webkit-linear-gradient(to top, #232526, #414345); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #bcb18997, #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: transparent;
+}
+.pos{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    height: 4vh;
+    width: 10vw;
+   
 }
